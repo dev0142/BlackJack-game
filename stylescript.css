@@ -1,0 +1,46 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head {
+    
+    text-align: center;
+
+}
+
+.container-1
+{
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.flex-box-row-1,.flex-box-row-2,.flex-box-row-3{
+    background: url("./images/poker-back.jpg") center center no-repeat;
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    color: white;
+}
+table , th, td{
+    border: 1px solid white;
+    padding: 5px;
+}
+.flex-box-row-1 div{
+    padding: 10px;
+    height: 350px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    text-align: center;
+    flex:1;
+}
+.flex-box-row-1 div img{
+    padding: 7px;
+    height: 150px;
+    width: 120px;
+}
+
+
+
+
